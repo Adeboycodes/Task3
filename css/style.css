@@ -1,0 +1,203 @@
+
+body {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main-header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main-header img {
+    height: 20px;
+    padding-right: 50px;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-top: 0;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.right-navbar img {
+    padding-right: 0px;
+}
+
+.right-navbar img:nth-child(1) {
+    height: 20px;
+    padding-right: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.right-navbar img:nth-child(2) {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.right-navbar img:nth-child(2):hover {
+    border: 3px solid orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.item {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item li {
+    display: inline-block;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 70%;
+}
+
+.box1 {
+    width: 45%;
+}
+
+.box1 img {
+    height: 400px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.box1 span {
+    margin-top: 15px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 span img {
+    height: 80px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.box1 span img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+
+.box2 {
+    width: 45%;
+}
+
+h5 {
+    margin-top: 100px;
+    color: orange;
+}
+
+.value {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: 700;
+    width: 60%;
+}
+
+.bonus {
+    padding: 1px 2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: orangered;
+    background-color: rgb(243, 224, 188);
+    border-radius: 5px;
+    margin: auto 0;
+    width: 10px;
+}
+
+.delete {
+    color: darkgrey;
+}
+
+.order {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order span {
+    border-radius: 8px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 5px;
+}
+
+.order span img:nth-child(1) {
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.order span img:nth-child(2) {
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.order button {
+    width: 60%;
+    border-radius: 8px;
+    border: 0;
+    background-color: orange;
+    color: white;
+    cursor: pointer;  
+}
+
+.order button img {
+    background-color: orange;
+    color: white;
+    padding-right: 10px;
+}
+
+.menu {
+    display: none;
+}
